@@ -1,0 +1,2 @@
+# Ejecuta esto en terminal:
+sudo nano /usr/share/polkit-1/actions/org.pyexplorer.mount.policy

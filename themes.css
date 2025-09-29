@@ -1,0 +1,159 @@
+/* Tema Claro */
+.light {
+    /* Colores principales */
+    qproperty-backgroundColor: #ffffff;
+    qproperty-foregroundColor: #000000;
+    qproperty-accentColor: #0078D7;
+    
+    /* Ventana principal */
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.light QMenuBar {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+.light QToolBar {
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.light QStatusBar {
+    background-color: #f0f0f0;
+    color: #000000;
+}
+
+.light QTreeView, .light QListView {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dcdcdc;
+}
+
+.light QTreeView::item:selected, .light QListView::item:selected {
+    background-color: #0078D7;
+    color: #ffffff;
+}
+
+.light QLineEdit {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dcdcdc;
+    padding: 2px;
+}
+
+.light QTabWidget::pane {
+    border: 1px solid #dcdcdc;
+}
+
+.light QTabBar::tab {
+    background-color: #f0f0f0;
+    color: #000000;
+    padding: 5px 10px;
+    border: 1px solid #dcdcdc;
+}
+
+.light QTabBar::tab:selected {
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+/* Tema Oscuro */
+.dark {
+    /* Colores principales */
+    qproperty-backgroundColor: #1e1e1e;
+    qproperty-foregroundColor: #ffffff;
+    qproperty-accentColor: #0078D7;
+    
+    /* Ventana principal */
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark QMenuBar {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark QToolBar {
+    background-color: #333333;
+    border-bottom: 1px solid #404040;
+}
+
+.dark QStatusBar {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.dark QTreeView, .dark QListView {
+    background-color: #252526;
+    color: #ffffff;
+    border: 1px solid #404040;
+}
+
+.dark QTreeView::item:selected, .dark QListView::item:selected {
+    background-color: #0078D7;
+    color: #ffffff;
+}
+
+.dark QLineEdit {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border: 1px solid #404040;
+    padding: 2px;
+}
+
+.dark QTabWidget::pane {
+    border: 1px solid #404040;
+}
+
+.dark QTabBar::tab {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: 1px solid #404040;
+}
+
+.dark QTabBar::tab:selected {
+    background-color: #1e1e1e;
+    border-bottom: none;
+}
+
+/* Estilos comunes para botones */
+QPushButton {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.light QPushButton {
+    background-color: #f0f0f0;
+    border: 1px solid #dcdcdc;
+    color: #000000;
+}
+
+.dark QPushButton {
+    background-color: #3c3c3c;
+    border: 1px solid #404040;
+    color: #ffffff;
+}
+
+QPushButton:hover {
+    background-color: #0078D7;
+    color: #ffffff;
+}
+
+/* Estilos para diálogos */
+QDialog {
+    min-width: 300px;
+}
+
+.light QDialog {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark QDialog {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
